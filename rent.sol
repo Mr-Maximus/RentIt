@@ -1,4 +1,6 @@
 pragma solidity ^0.6.2;
+
+// @audit --> use floating pragma
 pragma experimental ABIEncoderV2;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol";
